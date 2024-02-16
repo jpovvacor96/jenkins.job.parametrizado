@@ -1,5 +1,5 @@
 job('ejemplo3-job-DSL') {
-	description('Job DSL de ejemplo para el curso de Jenkins. Vamos a probar ahora el push')
+	description('Job DSL de ejemplo para el curso de Jenkins. Vamos a probar ahora el push 2')
   	scm {
       		git('https://github.com/jpovvacor96/jenkins.job.parametrizado.git', 'main') { node ->
         		node / gitConfigName('jpovvacor96')
